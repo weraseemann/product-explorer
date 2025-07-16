@@ -41,17 +41,11 @@ body {
     color: var(--font-color);
   }
   
-
-
   input[type="checkbox"] {
   accent-color: var(--primary-input-color);
   cursor: pointer;
   height: 1.5rem;
   width: 1.5rem;
-  }
-
-  .checkbox {
-    font-size: 1rem;
   }
 
   h1 {
@@ -216,8 +210,16 @@ input[type="range"]::-webkit-slider-thumb {
 
 @media screen and (max-width: 481px) {
   .body {
-    width: 100%;
-    margin-right: 5px;
+    body {
+    font-weight: 400;
+    color: var(--secondary-font-color);
+    line-height: 1.5;
+    background: var(--secondary-background-color);
+    background-attachment: scroll;
+    font-family: var(--font-family-sans-serif);
+    margin:3px;
+    box-shadow: 0px 0px 0px 0px;
+  }
     
   }
 
