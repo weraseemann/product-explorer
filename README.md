@@ -21,15 +21,15 @@ Technische Vorgaben:
 
 product-explorer/
 
- /js
-    app.js
-    products-data.js
-  /screenshots
-    /desktop   
-    /mobile.js
-  index.html
-  README.md
-  styles.css
+  - js/
+    - app.js
+    - products-data.js
+  - screenshots/
+    - desktop/   
+    - mobile.js/
+  - index.html
+  - README.md
+  - styles.css
 
 
 ## Start-Anleitung
