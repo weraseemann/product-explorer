@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product-Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <h1>Produkt-Explorer</h1>
+    <div class="filter">
+    <div class="search-bar-text">
+    <h3>Was suchen Sie?</h3>
+    <label for="Textsuche"></label>
+    <input type="text" id="searchText" placeholder="Textsuche" aria-label="Textsuche">
+    </div>
+    <h3>Filter nach Produktkategorien</h3>
+    <div class="checkbox-filter" id="searchCategory">
+    <label for="checkbox"><input type="checkbox" class="checkbox" id="chbxAlle" value="Alle" aria-label="Checkbox Alle">Alle</label>
+    <label for="checkbox"><input type="checkbox" class="checkbox" id="chbxAuto" value="Auto" aria-label="Checkbox für Produktkategorie: Auto">Auto</label>
+    <label for="checkbox"><input type="checkbox" class="checkbox" id="chbxAutoteile" value="Autozubehör" aria-label="Checkbox für Produktkategorie: Autozubehör">Autozubehör</label>
+    </div>
+    <h3 class="price-slider-header">Filtern nach Preis</h3>
+    <div class="custom-wrapper">
+        <div class="header">
+            
+        </div>
+        <div class="price-input-container">
+            <div class="price-input">
+                 
+                <div class="price-field">
+                    <span>Mindestpreis</span>
+                    <label for="Höchstpreis"></label>
+                    <input type="number" class="min-input" value="0" aria-label="Mindestpreiseingabe">
+                </div>
+               <div class="price-field">
+                    <span>Höchstpreis</span>
+                    <label for="Mindestpreis"></label>
+                    <input type="number" class="max-input" value="200000" aria-label="Höchstpreiseingabe">
+                </div>
+            </div>
+            <div class="slider">
+                <div class="price-slider"></div>
+            </div>
+        </div>
+        <!-- Slider -->
+        <div class="range-input">
+            <label for="Min-range"></label>
+            <input type="range" class="min-range" min="0" max="200000" value="0" step="1" aria-label="Mindestpreiseingabe über Slider">
+            <label for="Max-range"></label>
+            <input type="range" class="max-range" min="0" max="200000" value="200000" step="1" aria-label="Höchstpreiseingabe über Slider"></label>
+        </div>
+    </div>
+</div>
+    <ul  class="list-group product-list">
+    <!-- Here  comes the list of poducts-->
+    </ul>
+
+    <script type="module" src="js/app.js"></script>    
+</body>
+</html>
