@@ -19,6 +19,23 @@ Technische Vorgaben:
 
 ## Projektstruktur
 
+product-explorer/
+
+├── /js
+│   ├── app.js
+│   └── products-data.js
+│
+├── /screenshots
+│   ├── /desktop   
+│   └── /products-data.js
+│       
+│
+├── index.html
+├── README.md
+│
+└── styles.css
+
+
 
 ## Start-Anleitung
 1. Repository klonen: git clone 
