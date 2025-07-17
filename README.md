@@ -4,9 +4,9 @@ Eine Single-Page-App “Produkt-Explorer”
 ## Inhalte
   1. Statische Produktliste (20–30 Einträge)
   2. Live-Filter:
-• Textsuche (mit Debounce ~300 ms)
-• Kategorien-Checkboxen mit “Alle”-Logik
-• Preisslider (min/max)
+    • Textsuche (mit Debounce ~300 ms)
+    • Kategorien-Checkboxen mit “Alle”-Logik
+    • Preisslider (min/max)
   3. Produkt-Grid mit Bild, Name, Preis, Kategorie
   4. Responsives und barrierearmes Design
   5. Kurzes README mit Setup-Anleitung und Erläuterungen
@@ -35,7 +35,7 @@ product-explorer/
 ## Start-Anleitung
 1. Repository klonen: git clone 
 2. Öffne index.html in einem Browser (z. B. per Doppelklick oder mit Live Server)
-3. Instalation: Es ist keine installation notwendig.
+3. Instalation: Es ist keine Installation notwendig.
 
 ## Design-Entscheidungen
 
