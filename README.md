@@ -14,7 +14,7 @@ Eine Single-Page-App “Produkt-Explorer”
 Technische Vorgaben: 
   - Vanilla JS + CSS
   - Grid/Flexbox  
-  - Frameworks fürs Grund-Styling
+  - eventuell Frameworks fürs Grund-Styling
  
 
 ## Projektstruktur
@@ -41,7 +41,7 @@ product-explorer/
 
 - Verwendung von :root-Variablen für Wiederverwendbarkeit und einfache Pflege mit dem Ziel Zentrale Verwaltung von Farben, Schriftarten und Größen – leicht anpassbar für Theme-Änderungen.
 - Für Filterbereich: Blauer Hintergrund und Schatten ergibt optisch hervorgehobenen Bereich. Benutzung der Flexbox-Struktur für responsives Layout (Ausrichtung über flex-direction).
-- Füe Checkboxen: Farbliche Hervorhebung mit accent-color (modern & barriereärmer). Große Checkboxenfläche für bessere UX.
+- Für Checkboxen: Farbliche Hervorhebung mit accent-color (modern & barriereärmer). Große Checkboxenfläche für bessere UX.
 - Interakriven und modernen Slider mit zwei Inputfeldern und einem Balken. 
 - Responsives Layout mit Media Queries (Schmalere Darstellung unter 768px und 481px) für Produktdarstellung, Filterbereich: Texteingabe, Checkboxen, Slider für gute UX auf Handy & Tablet.
 - Karten- und Listenstruktur für Inhalte durch automatische Anpassung mit auto-fill (mobilfreundlich).Responsive Grid-Darstellung von Produktkarten.
